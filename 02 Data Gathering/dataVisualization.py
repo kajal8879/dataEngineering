@@ -6,9 +6,9 @@ from pylab import rcParams
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-# weather database sample 1
+# database sample 1
 url = "http://www.hubertiming.com/results/2017GPTR10K"
-# weather database sample 2
+# database sample 2
 # url = "https://www.hubertiming.com/results/2023WyEasterLong"
 html = urlopen(url)
 
